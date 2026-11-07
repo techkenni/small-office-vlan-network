@@ -152,6 +152,15 @@ Place the supplied screenshots in a directory named `screenshots/` using these f
 | `it-connectivity-tests.png` | IT tests to Sales and HR |
 | `hr-connectivity-tests.png` | HR tests to IT and Sales |
 
+
+## Project documentation
+
+The full project documentation is available in the [docs](docs/) folder:
+
+- [PDF implementation and testing report](docs/KenniTech_Project_01_Small_Office_VLAN_Report.pdf)
+- [Editable Word implementation and testing report](docs/Project_01_Network_Report.docx)
+- [Markdown implementation and testing report](docs/implementation-and-testing-report.md)
+
 ## Repository structure
 
 ```text
