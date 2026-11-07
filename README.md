@@ -12,7 +12,7 @@ The network uses a Cisco 2911 router and a Cisco 2960-24TT switch. Six PCs are c
 
 ### Topology
 
-![Small Office VLAN Network topology](screenshots/network-topology.png)
+![Small Office VLAN Network topology](screenshots/network-topology.webp)
 
 *Logical topology: one router, one central switch and six departmental endpoints.*
 
@@ -139,18 +139,18 @@ The screenshots also show ACL match counters on the relevant permit and deny ent
 
 ## Evidence
 
-Place the supplied screenshots in a directory named `screenshots/` using these filenames:
+The supplied Packet Tracer evidence screenshots are included in `screenshots/`:
 
 | Filename | Evidence |
 |---|---|
-| `network-topology.png` | Complete Packet Tracer logical topology |
-| `vlan-configuration.png` | `show vlan brief` output |
-| `trunk-verification.png` | `show interfaces trunk` output |
-| `router-verification.png` | Router subinterfaces, DHCP bindings and ACL output |
-| `acl-interface-attachment.png` | Inbound ACL attachment to Sales and HR subinterfaces |
-| `sales-connectivity-tests.png` | Sales tests to IT and HR |
-| `it-connectivity-tests.png` | IT tests to Sales and HR |
-| `hr-connectivity-tests.png` | HR tests to IT and Sales |
+| `network-topology.webp` | Complete Packet Tracer logical topology |
+| `vlan-configuration.webp` | `show vlan brief` output |
+| `trunk-verification.webp` | `show interfaces trunk` output |
+| `router-verification.webp` | Router subinterfaces, DHCP bindings and ACL output |
+| `acl-interface-attachment.webp` | Inbound ACL attachment to Sales and HR subinterfaces |
+| `sales-connectivity-tests.webp` | Sales tests to IT and HR |
+| `it-connectivity-tests.webp` | IT tests to Sales and HR |
+| `hr-connectivity-tests.webp` | HR tests to IT and Sales |
 
 
 ## Project documentation
@@ -172,17 +172,17 @@ small-office-vlan-network/
 │   ├── Project_01_Network_Report.docx
 │   └── implementation-and-testing-report.md
 └── screenshots/                 # add the evidence images here
-    ├── network-topology.png
-    ├── vlan-configuration.png
-    ├── trunk-verification.png
-    ├── router-verification.png
-    ├── acl-interface-attachment.png
-    ├── sales-connectivity-tests.png
-    ├── it-connectivity-tests.png
-    └── hr-connectivity-tests.png
+    ├── network-topology.webp
+    ├── vlan-configuration.webp
+    ├── trunk-verification.webp
+    ├── router-verification.webp
+    ├── acl-interface-attachment.webp
+    ├── sales-connectivity-tests.webp
+    ├── it-connectivity-tests.webp
+    └── hr-connectivity-tests.webp
 ```
 
-The Packet Tracer file and three report files are already committed. The `screenshots/` folder and its evidence images are the remaining repository assets to add.
+The Packet Tracer file, reports and eight evidence screenshots are committed in this repository.
 
 ## Configuration backup
 
