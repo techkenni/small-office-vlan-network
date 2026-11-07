@@ -166,11 +166,12 @@ The full project documentation is available in the [docs](docs/) folder:
 ```text
 small-office-vlan-network/
 ├── README.md
+├── Project 01 - Small Office Network.pkt
 ├── docs/
+│   ├── KenniTech_Project_01_Small_Office_VLAN_Report.pdf
+│   ├── Project_01_Network_Report.docx
 │   └── implementation-and-testing-report.md
-├── packet-tracer/
-│   └── Project 01 - Small Office Network.pkt
-└── screenshots/
+└── screenshots/                 # add the evidence images here
     ├── network-topology.png
     ├── vlan-configuration.png
     ├── trunk-verification.png
@@ -181,7 +182,7 @@ small-office-vlan-network/
     └── hr-connectivity-tests.png
 ```
 
-The folders and filenames above describe the recommended layout. Add the actual Packet Tracer file and image files to the repository from your Mac.
+The Packet Tracer file and three report files are already committed. The `screenshots/` folder and its evidence images are the remaining repository assets to add.
 
 ## Configuration backup
 
